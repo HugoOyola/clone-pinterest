@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clon de Pinterest, proyecto final de DEVF">
+  <link rel="icon" href="img/favicon.png" type="image/png" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,300;0,500;1,300&family=Lato:ital,wght@0,300;0,700;1,300&family=Roboto:ital,wght@0,300;0,500;0,700;1,300&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Pinterest | Clone</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="container-navbar">
+    <nav id="navbar-pinterest">
+      <div class="left">
+        <a href="https://www.pinterest.com/" aria-label="Pinterest" target="__blank" class="logo"><i
+            class="fab fa-pinterest"></i></a>
+        <a href="#" aria-label="Inicio" class="btn-home">Inicio</a>
+        <a href="#" aria-label="Para ti" class="btn-for-you">Para ti</a>
+        <a href="#" class="btn-today">Hoy</a>
+      </div>
+      <div class="container-search">
+        <form class="search" action="">
+          <i class="fas fa-search"></i>
+          <input class="finder" type="search" name="" placeholder="Buscar" id="">
+        </form>
+      </div>
+      <div class="right">
+        <a href="#" aria-label="Notificaciones" id="#notifications" class="items"><i class="fas fa-bell"></i></a>
+        <a href="#" aria-label="Mensajes" id="#message" class="items"><i class="fas fa-comment-dots"></i></a>
+        <a href="#" aria-label="Imagen Perfil" id="#profile-img" class="avatar">
+          <div class="container-img">
+            <img src="./img/user.png" alt="Foto de Perfil del Usuario">
+          </div>
+        </a>
+        <a href="#" aria-label="Menú Desplegable" class="items-down"><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main id="content">
+    <div class="mensage-movil">
+      <h1>¡Bienvenido/a, Hugo!</h1>
+      <p>¿Quieres ver más ideas como estas?</p>
+    </div>
+    <section id="gallery">
+      <div class="card-image">
+        <figure>
+          <img src="./img/1.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/2.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/3.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/4.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/5.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/6.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/7.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/8.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/9.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/10.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/11.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/12.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/13.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/14.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/15.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/16.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/17.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/18.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/19.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/20.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/21.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/22.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/23.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/24.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/25.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/26.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/27.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/28.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/29.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/30.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/31.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/32.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/33.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/34.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/35.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/36.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-image">
+        <figure>
+          <img src="./img/37.jpg" alt="Imagenes de Pinterest" />
+        </figure>
+        <div class="hover">
+          <div class="container-btn-save">
+            <a href="#" aria-label="Boton de Guardar" class="btn-save">Guardar</a>
+          </div>
+          <div class="container-btn-social">
+            <a href="#" aria-label="Icono de Compartir" class="btn-share"><i class="fas fa-share-square"></i></a>
+            <a href="#" aria-label="Más opciones" class="btn-add"><i class="fas fa-ellipsis-h"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
